@@ -34,7 +34,7 @@ export default function VideoPlayer(props) {
           uri: props.video,
         }}
 
-        useNativeControls
+        
         resizeMode= 'contain'
         isLooping
         onPlaybackStatusUpdate={status => setStatus(() => status)}
